@@ -5,9 +5,9 @@ a)  a = 0
     while (a < n * n * n):
       a = a + n * n
 
-      Answer:
+## Answer:
 
-      Our runtime for our third analysis is a runtime of O(n): This uses recursion, which calculates the number of ears for n bunnies. If the number of bunnies were to increase, our recursive calls would increase as well.
+Our runtime for our third analysis is a runtime of O(n): This uses recursion, which calculates the number of ears for n bunnies. If the number of bunnies were to increase, our recursive calls would increase as well.
 +--------------------------------------------------------+      
 b)  sum = 0
     for i in range(n):
@@ -26,9 +26,9 @@ c) def bunnyEars(bunnies):
 
       return 2 + bunnyEars(bunnies-1)
 
-      Answer:
+## Answer:
 
-      Our runtime for our third analysis is a runtime of O(n): This uses recursion, which calculates the number of ears for n bunnies. If the number of bunnies were to increase, our recursive calls would increase as well.
+Our runtime for our third analysis is a runtime of O(n): This uses recursion, which calculates the number of ears for n bunnies. If the number of bunnies were to increase, our recursive calls would increase as well.
 
 +--------------------------------------------------------+
 
@@ -40,7 +40,7 @@ Suppose that you have an n-story building and plenty of eggs. Suppose also that 
 Write out your proposed algorithm in plain English or pseudocode AND give the runtime complexity of your solution.
 
 +--------------------------------------------------------+
-Answer:
+## Answer:
 
 n-story would be our max number of floors—the base case we cannot cover the f with zero eggs regardless of an infinite amount to be thrown. We will need to find a minimum value using binary search. That way, we can divide a large array into two smaller sub-arrays.
 
