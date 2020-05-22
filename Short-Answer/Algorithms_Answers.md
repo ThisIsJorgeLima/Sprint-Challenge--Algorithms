@@ -16,7 +16,7 @@ b)  sum = 0
         j *= 2
         sum += 1
 
-        Answer:
+## Answer:
 
 Our runtime for our second analysis is a runtime ofO(n^2): Because we have two loops, and one is nested. Our inputs are being iterated n*n times.
 
