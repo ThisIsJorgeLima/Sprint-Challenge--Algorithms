@@ -7,7 +7,7 @@ a)  a = 0
 
 ## Answer:
 
-Our runtime for our third analysis is a runtime of O(n): This uses recursion, which calculates the number of ears for n bunnies. If the number of bunnies were to increase, our recursive calls would increase as well.
+Our runtime for this first analysis is a runtime of  O(n) because we have a while loop, which signifies the number of our inputs to increase, which will increase the number of operations.  
       
 b)  sum = 0
     for i in range(n):
